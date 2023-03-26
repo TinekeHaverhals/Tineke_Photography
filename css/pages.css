@@ -480,8 +480,8 @@ h6 {
 }
 
 .intro-header {
-  /* padding-top: 50px;*/
-  /* padding-bottom: 50px;*/
+  padding-top: 5%;
+  padding-bottom: 50px;
   text-align: center;
   /*color: #f8f8f8;*/
   color: #ab858c;
