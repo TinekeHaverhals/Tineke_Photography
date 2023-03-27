@@ -733,10 +733,23 @@ html {
   }
 }
 
+@media screen and (min-width: 601px) {
+  .card-media2 {
+    float: right;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-media2 {
+    display: none;
+  }
+}
+
 .button {
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 16px 110px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -761,7 +774,6 @@ footer {
   text-align: center;
   padding: 3px;
   background-color: #ab858c;
-  color: white;
 }
 .buttonInstagram {
   background-color: #ab858c;
@@ -777,4 +789,33 @@ footer {
 .buttonInstagram:hover {
   background-color: white;
   color: #ab858c;
+}
+
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 50px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-envelope {
+  color: white;
+}
+.social-media {
+  font-size : 50px;
+  text-align: center;
+  margin-bottom: 2,5%;
 }
