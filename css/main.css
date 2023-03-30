@@ -332,7 +332,7 @@ div.name {
 
 @media screen and (max-width: 600px) {
   div.name {
-    margin-top: -55%;
+    margin-top: -100%;
     font-size:1.5vw;
     Margin-left: 5%;
   }
@@ -356,7 +356,9 @@ div.name {
   display: flex;
   justify-content: center;
   align-items: center;
-}  .header-row-title {
+}
+/*
+.header-row-title {
   margin: 10vh 0 0 0;
   color: var(--white);
   font-size: 95%;
@@ -366,6 +368,26 @@ div.name {
   font-weight: 300;
   text-transform: uppercase;
   margin-top: 40%;
+}
+*/
+@media screen and (min-width: 601px) {
+  .header-row-title {
+    margin: 10vh 0 0 0;
+    color: var(--white);
+    font-size: 95%;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    letter-spacing: .5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-row-title  {
+    display: none;
+  }
 }
 
 .header-row-bottom {
@@ -533,7 +555,7 @@ div.name {
 
 @media screen and (max-width: 600px) {
   div.collage {
-    margin-top: -40%;
+    margin-top: -100%;
   }
 }
 #drag-container, #spin-container {
@@ -714,6 +736,14 @@ html {
   margin: 10px 0;
 }
 
+.card-title1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 10px 0;
+}
+
 .card-description {
   display: inline-block;
   font-weight: 300;
@@ -770,6 +800,10 @@ html {
   color: #ab858c;
 }
 
+.button:active{
+  color: white;
+}
+
 footer {
   text-align: center;
   padding: 3px;
@@ -814,8 +848,20 @@ footer {
 .fa-envelope {
   color: white;
 }
-.social-media {
-  font-size : 50px;
-  text-align: center;
-  margin-bottom: 2,5%;
+
+
+@media screen and (min-width: 601px) {
+  .social-media {
+    font-size : 50px;
+    text-align: center;
+    margin-bottom: 2,5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .social-media {
+    font-size : 30px;
+    text-align: center;
+    margin-bottom: 2,5%;
+  }
 }
