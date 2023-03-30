@@ -754,12 +754,14 @@ html {
 @media screen and (min-width: 601px) {
   .card-media {
     float: right;
+    border-radius: 1em;
   }
 }
 
 @media screen and (max-width: 600px) {
   .card-media {
     display: none;
+    border-radius: 1em;
   }
 }
 
@@ -767,12 +769,14 @@ html {
   .card-media2 {
     float: right;
     margin-top: 10%;
+    border-radius: 1em;
   }
 }
 
 @media screen and (max-width: 600px) {
   .card-media2 {
     display: none;
+    border-radius: 1em;
   }
 }
 

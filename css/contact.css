@@ -757,3 +757,35 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
   width: 100%;
 }
+
+@media screen and (min-width: 601px) {
+  .social-media {
+    font-size : 50px;
+    text-align: center;
+    margin-bottom: 2,5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .social-media {
+    font-size : 30px;
+    text-align: center;
+    margin-bottom: 2,5%;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .social-media {
+    font-size : 50px;
+    text-align: center;
+    margin-bottom: 2,5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .social-mediafooter {
+    font-size : 10px;
+    text-align: center;
+    margin-bottom: 2,5%;
+  }
+}
