@@ -505,16 +505,34 @@ strong {
   font-weight: 600;
 }
 
-.overlay {
-  width: 100%;
-  max-width: 1140px;
-  padding: 25px 50px 75px 250px;
-  align-items: center;
-  background-color: #ab858c;
-  box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
-  border-radius: 2rem;
-  border: 1px solid rgba(255, 255, 255, 0.125);
+
+@media screen and (min-width: 601px) {
+  .overlay {
+    width: 100%;
+    max-width: 1140px;
+    padding: 25px 50px 75px 250px;
+    align-items: center;
+    background-color: #ab858c;
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-left: 25%;
+  }
 }
+
+@media screen and (max-width: 600px) {
+  .overlay {
+    width: 100%;
+    max-width: 1140px;
+    padding: 25px 50px 75px 250px;
+    align-items: center;
+    background-color: #ab858c;
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+}
+
 
 .overlay__inner {
   max-width: 36rem;
