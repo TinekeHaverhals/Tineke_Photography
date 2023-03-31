@@ -864,7 +864,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   .social-media {
-    font-size : 30px;
+    font-size : 20px;
     text-align: center;
     margin-bottom: 2,5%;
   }
