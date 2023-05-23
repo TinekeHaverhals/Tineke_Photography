@@ -820,6 +820,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   cursor: pointer;
   border-radius: 1em;
 }
+
 .inputbox {
   background-color: white;
   border: none;
