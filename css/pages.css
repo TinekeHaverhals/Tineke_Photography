@@ -599,20 +599,31 @@ footer {
 }
 
 .fa-facebook {
-  color: #ab858c;
+  color: white;
 }
 
 .fa-instagram {
-  color: #ab858c;
+  color: white;
 }
 
 .fa-envelope {
-  color: #ab858c;
+  color: white;
 }
-.social-media {
-  font-size : 50px;
-  text-align: center;
-  margin-bottom: 2,5%;
+
+@media screen and (min-width: 601px) {
+  .social-media {
+    font-size : 50px;
+    text-align: center;
+    margin-bottom: 2,5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .social-media {
+    font-size : 20px;
+    text-align: center;
+    margin-bottom: 2,5%;
+  }
 }
 
 #footerimg {
