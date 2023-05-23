@@ -273,9 +273,9 @@ div.name {
 }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   div.name {
-    font-size: 15px;
+    font-size: 1.2vw;
     margin-bottom: 15%;
   }
 }
