@@ -505,8 +505,7 @@ strong {
   font-weight: 600;
 }
 
-
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1200px) {
   .overlay {
     width: 100%;
     max-width: 1140px;
@@ -517,6 +516,19 @@ strong {
     border-radius: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.125);
     margin-left: 25%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .overlay {
+    width: 100%;
+    max-width: 800px;
+    padding: 25px 50px 75px 100px;
+    align-items: center;
+    background-color: #ab858c;
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-left: 20%;
   }
 }
 
@@ -808,6 +820,20 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 .button-send {
+  background-color: white;
+  border: none;
+  color: #black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 1em;
+}
+
+.inputbox {
   background-color: white;
   border: none;
   color: #black;
