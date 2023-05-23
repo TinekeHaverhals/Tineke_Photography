@@ -535,13 +535,14 @@ strong {
 @media screen and (max-width: 600px) {
   .overlay {
     width: 100%;
-    max-width: 1140px;
+    max-width: 450px;
     padding: 25px 50px 75px 250px;
     align-items: center;
     background-color: #ab858c;
     box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
     border-radius: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-left: 10%;
   }
 }
 
@@ -823,7 +824,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   background-color: white;
   border: none;
   color: #black;
-  padding: 15px 32px;
+  padding: 15px 95px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
