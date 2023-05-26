@@ -606,9 +606,7 @@ footer {
   color: white;
 }
 
-.fa-envelope {
-  color: white;
-}
+
 
 @media screen and (min-width: 601px) {
   .social-media {
@@ -620,11 +618,13 @@ footer {
 
 @media screen and (max-width: 600px) {
   .social-media {
-    font-size : 20px;
+    font-size : 40px;
     text-align: center;
     margin-bottom: 2,5%;
   }
 }
+
+
 
 #footerimg {
   color: black;
@@ -638,7 +638,7 @@ footer {
 @media screen and (max-width: 600px) {
   .name-animal {
     font-size: 30px;
-margin-left: 2%;
+    margin-left: 2%;
     margin-top: -20%;
   }
 }
@@ -672,4 +672,14 @@ margin-left: 2%;
   }
 }
 
+@media screen and (min-width: 601px) {
+  .fa-envelope {
+    color: white;
+  }
+}
 
+@media screen and (max-width: 600px) {
+  #envelope {
+    display: none;
+  }
+}

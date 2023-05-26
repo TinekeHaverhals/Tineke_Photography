@@ -320,7 +320,22 @@ div.name {
   margin-top: 40%;
 }
 */
-@media screen and (min-width: 601px) {
+
+@media screen and (min-width: 1000px) {
+  .header-row-title {
+    margin: 10vh 0 0 0;
+    color: var(--white);
+    font-size: 95%;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    letter-spacing: .5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .header-row-title {
     margin: 10vh 0 0 0;
     color: var(--white);
@@ -915,9 +930,15 @@ footer {
 
 @media screen and (max-width: 600px) {
   .social-media {
-    font-size : 20px;
+    font-size : 40px;
     text-align: center;
     margin-bottom: 2,5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #envelope {
+    display: none;
   }
 }
 
