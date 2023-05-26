@@ -853,3 +853,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     display: none;
   }
 }
+
+@media screen and (max-width: 600px) {
+  #instagram {
+    margin-left : -30px;
+  }
+}
