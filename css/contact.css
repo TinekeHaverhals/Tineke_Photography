@@ -626,11 +626,11 @@ strong {
     margin-left: 12%;
   }
 }
-/*
+
 @media screen and (max-width: 400px) {
   .overlay {
     width: 100%;
-    max-width: 280px;
+    max-width: 320px;
     padding: 25px 50px 75px 250px;
     align-items: center;
     background-color: #ab858c;
@@ -639,7 +639,7 @@ strong {
     border: 1px solid rgba(255, 255, 255, 0.125);
     margin-left: 10%;
   }
-}*/
+}
 
 .overlay__inner {
   max-width: 36rem;
