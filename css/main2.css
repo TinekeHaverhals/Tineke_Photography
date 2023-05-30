@@ -267,10 +267,10 @@ div.name {
 }
 
 @media screen and (min-width: 1200px) {
-div.name {
-  font-size: 25px;
-  margin-bottom: 15%;
-}
+  div.name {
+    font-size: 25px;
+    margin-bottom: 15%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -942,4 +942,9 @@ footer {
   }
 }
 
+@media screen and (max-width: 600px) {
+  #instagram {
+    margin-left : -30px;
+  }
+}
 
