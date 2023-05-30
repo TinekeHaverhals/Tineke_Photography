@@ -368,6 +368,8 @@ div.name {
 
 @media screen and (max-width: 1100px) {
   .header-row-title {
+    display: none;
+    /*
     margin: 10vh 0 0 0;
     color: var(--white);
     font-size: 95%;
@@ -377,11 +379,15 @@ div.name {
     font-weight: 200px;
     text-transform: uppercase;
     margin-top: 200%;
+    */
+     */
   }
 }
 
 @media screen and (max-width: 850px) {
   .header-row-title {
+    display: none;
+    /*
     margin: 10vh 0 0 0;
     color: var(--white);
     font-size: 95%;
@@ -391,6 +397,8 @@ div.name {
     font-weight: 200px;
     text-transform: uppercase;
     margin-top: 300%;
+    */
+     */
   }
 }
 
