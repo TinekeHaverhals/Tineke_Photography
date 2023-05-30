@@ -265,15 +265,20 @@ header {
 div.name {
 
 }
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   div.name {
     font-size: 25px;
     margin-bottom: 15%;
   }
 }
+@media screen and (max-width: 1850px) {
+  div.name {
+    font-size:18px;
+    margin-bottom: 15%;
+  }
+}
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
   div.name {
     font-size: 1.2vw;
     margin-bottom: 15%;
@@ -283,7 +288,7 @@ div.name {
 @media screen and (max-width: 600px) {
   div.name {
     margin-top: -100%;
-    font-size:1.5vw;
+    font-size:1.3vw;
     Margin-left: 5%;
   }
 }
@@ -947,5 +952,4 @@ footer {
     margin-left : -30px;
   }
 }
-
 
