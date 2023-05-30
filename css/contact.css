@@ -535,7 +535,7 @@ strong {
 @media screen and (max-width: 600px) {
   .overlay {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     padding: 25px 50px 75px 250px;
     align-items: center;
     background-color: #ab858c;
